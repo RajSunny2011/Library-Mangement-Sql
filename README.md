@@ -88,12 +88,13 @@ pip install pyinstaller
  - ### To Comlpile:
     Run the "Compile.bat" file *or* Run the following command in WindowsCMD:
     ```batch
-    pyinstaller --onefile --noconsole -n LMS  main.py
+    pyinstaller --onefile --noconsole --icon="icon.ico" -n LMS  main.py
     ```
     The "LMS.exe" executable will be in dist folder.
 
 #### Compile.bat
 A batch script to make the executable using pyinstaller. The options usedd are:
--   `--onefile`: Packages the application into a single executable file.
--   `--noconsole`: Ensures the application runs without a console window (useful for GUI applications).
--   `-n LMS`: Names the output executable file `LMS.exe` (on Windows).
+- `--onefile`: Packages the application into a single executable file.
+- `--noconsole`: Ensures the application runs without a console window (useful for GUI applications).
+- `-n LMS`: Names the output executable file `LMS.exe` (on Windows).
+- `--icon="icon.ico"`: changes the deafult icon to the specified one.

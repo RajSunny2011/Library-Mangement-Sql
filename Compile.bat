@@ -1,1 +1,1 @@
-pyinstaller --onefile --noconsole -n LMS  main.py
+pyinstaller --onefile --noconsole --icon="icon.ico" -n LMS  main.py
