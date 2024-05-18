@@ -1,1 +1,1 @@
-.\.env\Scripts\python.exe .\GUI.py
+.\.env\Scripts\python.exe .\main.py

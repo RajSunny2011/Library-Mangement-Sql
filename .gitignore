@@ -163,6 +163,6 @@ cython_debug/
 Books.txt
 Users.txt
 test.db
-library.db
+*.db
 test.py
 .vscode
